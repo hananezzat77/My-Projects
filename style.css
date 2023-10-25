@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: lato;
+    background-color: #455960;
+}
+
+main {
+    width: 960px;
+    height: auto;
+    margin: 0px auto;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+nav {
+    width: 938px;
+    height: 48px;
+    margin-left: 10px;
+    border: 1px solid #6A858C;
+    background: url(images/nav-bg.png);
+}
+
+.main-nav {
+    list-style: none;
+
+}
+
+.main-nav li {
+
+    float: left;
+}
+
+.main-nav li a {
+    display: block;
+    width: 116.25px;
+    height: 48px;
+    line-height: 48px;
+    color: #6A858C;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid #455960;
+
+}
+
+.main-nav li a:hover {
+    color: white;
+}
+
+.Services {
+    width: 938px;
+    height: 280px;
+    margin-top: 5px;
+    background: linear-gradient(#6A858C, #455960);
+    margin-left: 10px;
+    border: 1px solid #455960;
+
+}
+.left-services{
+    width: 469px;
+    height: 280px;
+    float: left;
+    position: relative;
+}
+h3{
+    font-family: lato;
+    font-weight: 400 ;
+    color: #C3EF16;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 30px;
+}
+.p1{
+    top: 50px;
+
+}
+.p2{
+    top: 170px;
+}
+.left-services img{
+    position: absolute;
+    right: 0px;
+    top: 50px;
+
+}
+.right-services{
+    width: 469px;
+    height: 280px;
+    float: right;
+  position: relative;
+}
+.right-services p{
+    top: 50px;
+    width: 240px;
+
+}
+.serv-list{
+    list-style: url(images/check1.png);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    left: 70px;   top: 130px;
+}
+.img1{
+    position: absolute;
+    right: -15px; top: 10px;
+}
+.img2{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.Hanan{
+    width: 938px;
+    height: 280px;
+    background: linear-gradient(#455960 , #6A858C);
+    position: relative;
+    margin-left: 10px;
+
+}
+.p3
+{
+    position: absolute;
+    top: 60px;
+
+}
+.img3{
+    bottom: -20px;
+    right: 10px;
+    position: absolute;
+}
+footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 25px;
+
+}
+footer p{
+    position: unset;
+
+}
+.footer-nav{
+    display: flex;
+
+    list-style: none;
+
+}
+.footer-nav li
+{
+  
+    padding: 0px 10px;
+    border-right: 1px solid white;
+}
+.footer-nav li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-nav li a:hover{
+    color: #C3EF16;
+    text-decoration: none;
+}
+footer span{
+    color: #C3EF16;
+    font-weight: bold;
+}
+
+
